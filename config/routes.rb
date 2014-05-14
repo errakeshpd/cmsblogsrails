@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :notifications
+
   devise_for :users
   root 'home#index'
   get 'login' => 'home#login'

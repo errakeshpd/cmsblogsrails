@@ -1,0 +1,18 @@
+%p#notice= notice
+
+%p
+  %b Titles:
+  = @notification.title
+%p
+  %b Description:
+  = @notification.description
+%p
+  %b Author:
+  = @notification.author
+ggjfjhgjhjghjghj
+= link_to 'Edit', edit_notification_path(@notification)
+\|
+= link_to 'Back', notifications_path
+
+
+<hr>
