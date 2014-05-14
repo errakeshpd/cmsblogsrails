@@ -1,0 +1,59 @@
+<%= render 'layouts/content/school_description' %>
+<div class="col-sm-6 col-md-6">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseone"><span class="glyphicon glyphicon-th">
+                </span>Govt High School</a></h4>
+            </div>
+            <div id="collapseone" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table">
+                        <tr><td><a href="http://www.school1.com" onmouseover="changeContent()">bharathiya vidya bhavan</a></td></tr>
+                        <tr><td><a href="http://www.school1.com"  onmouseover="hsspanamaram()">panamaram</a></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-th">
+                    </span>Aided High School</a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table">
+                        <tr><td><a href="http://www.school1.com">bharathiya vidya bhavan</a></td></tr>
+                        <tr><td><a href="http://www.school1.com">bharathiya vidya bhavan</a></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-th">
+                    </span>Aided Higher Secondary School</a>
+                </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <table class="table">
+                        <tr><td><a href="http://www.school1.com">bharathiya vidya bhavan</a></td></tr>
+                        <tr><td><a href="http://www.school1.com">bharathiya vidya bhavan</a></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-sm-6 col-md-6">
+    <div class="well" id="myDiv">
+        <h1>School webidangal</h1>
+        school webidangals description
+    </div>
+</div>
+

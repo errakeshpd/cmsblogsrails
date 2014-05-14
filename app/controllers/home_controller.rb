@@ -9,4 +9,6 @@ class HomeController < ApplicationController
   end
   def login
   end
+  def webidangal
+  end
 end

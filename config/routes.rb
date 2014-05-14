@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   devise_for :users
   root 'home#index'
   get 'login' => 'home#login'
-
+  get 'schools/webidangal' => 'home#webidangal'
   comfy_route :cms_admin, :path => '/admin'
 
   # Make sure this routeset is defined last

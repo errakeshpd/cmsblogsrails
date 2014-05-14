@@ -1,0 +1,10 @@
+<SCRIPT LANGUAGE="JavaScript">
+    function changeContent()
+    {
+        document.getElementById("myDiv").innerHTML='<h1>Bharatiya Vidya Bhavan</h1><hr> Bharatiya Vidya Bhavan is an Indian educational trust. It was founded on November 7, 1938 by Dr. K. M. Munshi, with the blessings of Mahatma Gandhi. ';
+    }
+    function hsspanamaram()
+    {
+        document.getElementById("myDiv").innerHTML='<h1>hss panamaram</h1><hr>Govhss panamaram, It was founded on November 7, 1938 ,located at panamaram marketroad';
+    }
+  </SCRIPT>
