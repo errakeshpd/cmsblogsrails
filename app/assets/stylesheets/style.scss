@@ -1,100 +1,55 @@
-.navbar-inverse{
-background: #3575B9;
-background: -webkit-gradient(linear, left top, right top, color-stop(0%, #0D53B4), color-stop(100%, #3575B9));
-background: -webkit-linear-gradient(left, #0D53B4 0%, #3575B9 100%);
-background: -moz-linear-gradient(left, #0D53B4 0%, #3575B9 100%);
-background: -ms-linear-gradient(left, #0D53B4 0%, #3575B9 100%);
-background-image: -ms-linear-gradient(left, #0D53B4 0%, #3575B9 100%);
-background: -o-linear-gradient(left, #0D53B4 0%, #3575B9 100%);
-background: linear-gradient(to right, #0D53B4 0%, #3575B9 100%);
+html { font-size: 62.5%; }
+body {
+    font-family : Meera;
+    font-size: 17px; 
+    font-size: 1.7rem;
 }
-.leftblueborder {
-    border-left:1px solid #4882C6;
-    padding:2%;
+.wrapper > section, .wrapper > footer {
+  padding: 20px;
 }
-.rightblueborder {
-    border-right:1px solid #4882C6;
+.heading {
+  background: #036CA5;
 }
-.topblueborder {
-    border-top:1px solid #4882C6;
-    padding:2%;
+.main-links > li > a > img {
+  padding: 10px;
 }
-.leftblueborder li a{
-    color:white !important;
+.page-footer {
+  background: #036CA5;
+  color: #fff;
 }
-.toplborder{
-    border-top:1px solid #C3CCD7;
+.page-footer li a, .page-footer li a:active,.page-footer li a:hover,.page-footer li a:focus  {
+  color: #fff;
 }
-.bluebg{
-    color:#ffffff !important;
-    background: #3575B9;
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #0D53B4), color-stop(100%, #3575B9));
-    background: -webkit-linear-gradient(left, #0D53B4 0%, #3575B9 100%);
-    background: -moz-linear-gradient(left, #0D53B4 0%, #3575B9 100%);
-    background: -ms-linear-gradient(left, #0D53B4 0%, #3575B9 100%);
-    background-image: -ms-linear-gradient(left, #0D53B4 0%, #3575B9 100%);
-    background: -o-linear-gradient(left, #0D53B4 0%, #3575B9 100%);
-    background: linear-gradient(to right, #0D53B4 0%, #3575B9 100%);
-       }
-.bluegb li{
-    color:white !important;
+.page-footer .container > ul {
+  margin: 20px 20px;
 }
-.bluehover{
-    li{
-        color: #ffffff !important;
-        border-right: 1px solid #0D53B4 !important;
-    }
-    li a:focus,
-    li a:hover {
-            color: #ffffff !important; 
-            text-decoration: none;
-            background-color: #0D53B4 !important; 
-    }
-    li .active{
-            background-color: none !important; 
-        }
+.arividam-description {
+  padding:13px 0 0 20px;
+  border-left: solid 1px #036CA5;
+  font-size: 1.7rem;
 }
-html,body {
-    font-face : Meera;
-    height:100%;
-    margin:0;
-    font:normal 1em Meera;
-}
-.iconsspace{
-    ul{
-        border-right:1px solid #C3CCD7;
-    }
-    ul li{
-        border-left: 1px solid #C3CCD7 !important;
-    }
-    ul li span{
-        padding:0px 10px 0 10px;
-    }}
-.boxtopshadow{
-    box-shadow:inset 0px 4px 9px rgba(0,0,0,.6);    
-}
-.padd2
-{
-    padding:2%;
-}
-.padd1{
-    padding:1%;
-}
-.user ul li a{
-    display:inline !important;
-}
-.btn-pos {
-    float:none !important;
-    padding:0px 5px !important;    
-}
-.navbar-inverse .navbar-nav > li > a {
-    color:white !important;
-}
-.navbar-header img{
-height: 50px;
-}
-.panel-title{   font-size:13px; }
 
+/* navigation list */
+.nav.nav-pills-1 > li > a:hover,
+.nav.nav-pills-1 > li > a:focus {
+  background: none;
+  text-decoration: underline;
+}
+.nav-pills-1 > li {
+  float: left;
+}
+.nav-pills-1 > li > a {
+  color: #fff;
+  border-radius: 4px;
+}
+.nav-pills-1 > li + li {
+  margin-left: 2px;
+}
+.nav-pills-1 > li.active > a,
+.nav-pills-1 > li.active > a:hover,
+.nav-pills-1 > li.active > a:focus {
+  text-decoration: underline;
+}
 @font-face {
     font-family: 'Meera';
     src: url(/app/assets/fonts/Meera.eot);
