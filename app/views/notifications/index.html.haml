@@ -1,12 +1,17 @@
 - @notifications.each do |notification|
   .panel.panel-success
     .panel-heading
-      %h3.panel-title= notification.title
+      %h3.panel-title 
+        = notification.title
+        by
+        = notification.author
+        %span.pull-right
+          Posted on: 
+          = notification.created_at
       %span.pull-right.clickable
         %i.glyphicon.glyphicon-minus
     .panel-body
       = notification.description
-      = notification.author
       = link_to 'Show', notification
       = link_to 'Edit', edit_notification_path(notification)
       = link_to 'Destroy', notification, :method => :delete, :data => { :confirm => 'Are you sure?' }
