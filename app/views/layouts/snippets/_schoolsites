@@ -4,8 +4,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseone"><span class="glyphicon glyphicon-th">
-                </span>Govt High School</a></h4>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseone">Govt High School</a></h4>
             </div>
             <div id="collapseone" class="panel-collapse collapse">
                 <div class="panel-body">
@@ -19,8 +18,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-th">
-                    </span>Aided High School</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Aided High School</a>
                 </h4>
             </div>
             <div id="collapseTwo" class="panel-collapse collapse">
@@ -35,8 +33,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-th">
-                    </span>Aided Higher Secondary School</a>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Aided Higher Secondary School</a>
                 </h4>
             </div>
             <div id="collapseThree" class="panel-collapse collapse">
